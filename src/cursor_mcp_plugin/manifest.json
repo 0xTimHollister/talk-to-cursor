@@ -6,7 +6,8 @@
   "ui": "ui.html",
   "editorType": [
     "figma",
-    "figjam"
+    "figjam",
+    "dev"
   ],
   "permissions": [],
   "networkAccess": {
@@ -20,5 +21,9 @@
   },
   "documentAccess": "dynamic-page",
   "enableProposedApi": true,
-  "enablePrivatePluginApi": true
+  "enablePrivatePluginApi": true,
+  "capabilities": [
+    "inspect",
+    "vscode"
+  ]
 }
